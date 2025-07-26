@@ -24,19 +24,17 @@
         <input type="date" id="DOB" name="DOB" required>
         <br>
         <label>Gender:</label><br>
-        <input type="radio" id="Male" name="gender" value required>
+        <input type="radio" id="Male" name="gender" value="Male" required>
         <label>Male</label><br>
-        <input type="radio" id="Female" name="gender" value required>
+        <input type="radio" id="Female" name="gender" value="Female" required>
         <label>Female</label><br>
         <label for="department">Department:</label>
-        <select id="department" name="department">
+        <select for="department" id="department" name="department">
             <option value="select your dept">Select your dept</option>
             <option value="CSE">CSE</option>
             <option value="ECE">ECE</option>
             <option value="ME">ME</option>
-            </select>
-
-            <br>
+        </select><br>
         <label for="Subjects">Subjects:</label><br>
         <input type="checkbox" id="Math" name="subjects" value="Maths">
         <label for="Math">Maths</label><br>
@@ -44,6 +42,16 @@
         <label for="Physics">Physics</label><br>
         <input type="checkbox" id="Chemistry" name="subjects" value="Chemistry">
         <label for="Chemistry">Chemistry</label><br>
+        <br>
+        <label for="Payments">Payments:</label><br>
+        <select id="Payments">
+            <option value="select your payment">Select your payment</option>
+            <option value="Bkah">Bkash</option>
+            <option value="Nagad">Nagad</option>
+            <option value="Rocket">Rocket</option>
+        </select>
+
+        </select>
         </form>
 </body>
 </html>
