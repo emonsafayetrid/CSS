@@ -9,7 +9,35 @@
     <form action="fist" method="post">
 
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name">
-    </form>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" minlength="8" maxlength="10">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br>
+        <label>Gender:</label><br>
+        <input type="radio" id="Male" name="gender" value required>
+        <label>Male</label><br>
+        <input type="radio" id="Female" name="gender" value required>
+        <label>Female</label><br>
+        <label for="department">Department:</label>
+        <select id="department" name="department">
+            <option value="select your dept">Select your dept</option>
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="ME">ME</option>
+            </select>
+
+            <br>
+        <label for="Subjects">Subjects:</label><br>
+        <input type="checkbox" id="Math" name="subjects" value="Maths">
+        <label for="Math">Maths</label><br>
+        <input type="checkbox" id="Physics" name="subjects" value="Physics">    
+        <label for="Physics">Physics</label><br>
+        <input type="checkbox" id="Chemistry" name="subjects" value="Chemistry">
+        <label for="Chemistry">Chemistry</label><br>
+        </form>
 </body>
 </html>
